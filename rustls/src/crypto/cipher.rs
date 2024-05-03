@@ -9,7 +9,7 @@ use crate::msgs::codec;
 pub use crate::msgs::message::{BorrowedPlainMessage, OpaqueMessage, PlainMessage};
 use crate::suites::ConnectionTrafficSecrets;
 
-use zeroize::Zeroize;
+use zeroize_15::Zeroize;
 
 /// Factory trait for building `MessageEncrypter` and `MessageDecrypter` for a TLS1.3 cipher suite.
 pub trait Tls13AeadAlgorithm: Send + Sync {

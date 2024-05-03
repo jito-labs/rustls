@@ -6,7 +6,7 @@ use alloc::vec::Vec;
 use core::fmt;
 
 use pki_types::CertificateDer;
-use zeroize::Zeroize;
+use zeroize_15::Zeroize;
 
 /// An externally length'd payload
 #[derive(Clone, Eq, PartialEq)]

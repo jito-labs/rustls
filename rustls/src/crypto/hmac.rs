@@ -1,6 +1,6 @@
 use alloc::boxed::Box;
 
-use zeroize::Zeroize;
+use zeroize_15::Zeroize;
 
 /// A concrete HMAC implementation, for a single cryptographic hash function.
 ///

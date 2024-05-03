@@ -10,7 +10,7 @@ use crate::tls12::Tls12CipherSuite;
 use crate::tls13::Tls13CipherSuite;
 
 use pki_types::{DnsName, UnixTime};
-use zeroize::Zeroizing;
+use zeroize_15::Zeroizing;
 
 use alloc::vec::Vec;
 use core::cmp;

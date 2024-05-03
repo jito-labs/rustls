@@ -14,7 +14,7 @@ use alloc::vec;
 use alloc::vec::Vec;
 use core::fmt;
 
-use zeroize::Zeroize;
+use zeroize_15::Zeroize;
 
 /// A TLS 1.2 cipher suite supported by rustls.
 pub struct Tls12CipherSuite {

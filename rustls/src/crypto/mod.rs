@@ -8,7 +8,7 @@ use alloc::vec::Vec;
 use core::fmt::Debug;
 
 use pki_types::PrivateKeyDer;
-use zeroize::Zeroize;
+use zeroize_15::Zeroize;
 
 #[cfg(all(doc, feature = "tls12"))]
 use crate::Tls12CipherSuite;

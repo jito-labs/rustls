@@ -3,7 +3,7 @@ use super::ActiveKeyExchange;
 use crate::error::Error;
 
 use alloc::boxed::Box;
-use zeroize::Zeroize;
+use zeroize_15::Zeroize;
 
 /// Implementation of `HkdfExpander` via `hmac::Key`.
 pub struct HkdfExpanderUsingHmac(Box<dyn hmac::Key>);
